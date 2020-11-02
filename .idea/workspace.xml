@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2875f96c-894e-451c-be09-8263f131a9d5" name="Default Changelist" comment="" />
+    <list default="true" id="117e4fbe-111c-4764-a475-191394d962f4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/site2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/site2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/createdb.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/createdb.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +20,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="ProjectId" id="1jVS0kKrMFTJnN95AsQ2rcGD11Y" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jjikS9Y3qiTLYuU37jIYGwKmeB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,44 +31,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2875f96c-894e-451c-be09-8263f131a9d5" name="Default Changelist" comment="" />
-      <created>1603887546922</created>
+      <changelist id="117e4fbe-111c-4764-a475-191394d962f4" name="Default Changelist" comment="" />
+      <created>1604324045919</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1603887546922</updated>
-      <workItem from="1603887548145" duration="6941000" />
+      <updated>1604324045919</updated>
+      <workItem from="1604324047183" duration="5426000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="395" y="90" key="#Inspections" timestamp="1603893978419">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="395" y="90" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1603893978419" />
-    <state x="194" y="253" key="#SQL_Dialects" timestamp="1603894030574">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="194" y="253" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1603894030574" />
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603894053439">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603894053439" />
-    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1603887687417">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1603887687417" />
-    <state x="339" y="84" key="SettingsEditor" timestamp="1603889236224">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="339" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603889236224" />
   </component>
 </project>
