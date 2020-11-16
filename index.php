@@ -19,12 +19,12 @@ require_once ("pages/functions.php");
 <div class="container">
     <div class="row">
         <header class="col-12">
-
+            <?php include_once("pages/login.php")?>
         </header>
     </div>
 
     <div class="row">
-        <nav class="col-12">
+        <nav class="col-12 mt-4">
             <?php include_once("pages/menu.php"); ?>
         </nav>
     </div>

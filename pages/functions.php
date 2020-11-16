@@ -53,3 +53,32 @@ function register($login, $pass1, $pass2, $email) {
 
     return true;
 }
+
+function login($login, $pass) {
+    $login = trim(htmlspecialchars($login));
+    $pass = trim(htmlspecialchars($pass));
+
+    if($login === '' || $pass === '') {
+        echo '<h3 class="text-danger">Заполните все поля</h3>';
+        return false;
+    }
+
+    if(strlen($login) < 3 || strlen($login) > 32 || strlen($pass) < 3 || strlen($pass) > 64 ) {
+        echo "<h3 class='text-danger'>Не корректная длина полей</h3>";
+        return false;
+    }
+
+    $link = connect();
+    $res = mysqli_query($link,"SELECT email FROM users WHERE login='$login'");
+    if($row = mysqli_fetch_array($res, MYSQLI_NUM)) {
+        if(password_verify($pass, $row[2])) {
+            $_SESSION['ruser'] = $login;
+            if($row[6] == 1) {
+                $_SESSION['radmin'] = $login;
+            }
+        }
+    } else {
+        echo "<h3 class='text-danger'>Пользователь не найден</h3>";
+        return false;
+    }
+}

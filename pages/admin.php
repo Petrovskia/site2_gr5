@@ -93,7 +93,6 @@
             echo '<script>window.location=document.URL</script>';
         }
 
-
         // обработчик удаление выбранных городов
         if(isset($_POST['delcity'])) {
             foreach ($_POST as $k => $v) {
@@ -191,7 +190,7 @@
         if(isset($_POST['addimage'])) {
             $hotelid = $_POST['hotelid'];
             foreach ($_FILES['file']['name'] as $k => $v) {
-                if($_FILES['file']['error'] !== 0) {
+                if($_FILES['file']['error'][$k] !== 0) {
                     echo '<script>alert("Upload file error"'.$v.')</script>';
                     continue; // при ошибке пропустить код ниже (move_uploaded_file)
                     // подумать, может ли быть прерывание!
