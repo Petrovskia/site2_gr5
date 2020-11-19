@@ -38,6 +38,7 @@ require_once ("pages/functions.php");
                 if($page === '2') include_once("pages/comments.php");
                 if($page === '3') include_once("pages/registration.php");
                 if($page === '4') include_once("pages/admin.php");
+                if($page === '5' && isset($_SESSION['radmin'])) include_once("pages/private.php");
             }
             ?>
         </section>

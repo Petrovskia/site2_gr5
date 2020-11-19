@@ -2,6 +2,8 @@
 
 <?php
 $link = connect();
+//echo '<br>ruser '. $_SESSION['ruser'];
+//echo '<br>radmin '. $_SESSION['radmin'];
 echo '<form action="index.php?page=1" method="post">';
 // создаем селект для выбора страны
 $res = mysqli_query($link, "SELECT * FROM countries ORDER BY country");

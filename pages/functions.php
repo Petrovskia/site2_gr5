@@ -69,16 +69,15 @@ function login($login, $pass) {
     }
 
     $link = connect();
-    $res = mysqli_query($link,"SELECT email FROM users WHERE login='$login'");
-    if($row = mysqli_fetch_array($res, MYSQLI_NUM)) {
-        if(password_verify($pass, $row[2])) {
+    $res = mysqli_query($link,"SELECT login, pass, roleid FROM users WHERE login='$login'");
+    if($row=mysqli_fetch_array($res, MYSQLI_NUM)) {
+        if ($login == $row[0] and password_verify($pass, $row[1])) {
             $_SESSION['ruser'] = $login;
-            if($row[6] == 1) {
+            if ($row[2] == 1) {
                 $_SESSION['radmin'] = $login;
             }
+        } else {
+            echo "<h3 class='text-danger'>Нет пользователя</h3>";
         }
-    } else {
-        echo "<h3 class='text-danger'>Пользователь не найден</h3>";
-        return false;
     }
 }
