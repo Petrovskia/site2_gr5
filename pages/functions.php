@@ -11,7 +11,7 @@ function connect($host="127.0.0.1", $user="root", $pass="123456", $dbname="trave
         echo "Ошибка при загрузке кодировки символов utf8".mysqli_error($link);
         exit;
     }
-    echo "Connect was successfully MySQL".PHP_EOL;
+//    echo "Connect was successfully MySQL".PHP_EOL;
     return $link;
 }
 
